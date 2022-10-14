@@ -6,6 +6,8 @@ El desafío es desarrollar este componente de precios y lograr que se parezca lo
 - CSS
 - JS Vanilla (with animejs library)
 
+![desktop-design-monthly](https://user-images.githubusercontent.com/112582420/195958534-b2a03181-09e7-476c-9187-023d9efa4c17.jpg)
+
 # Guía de Estilo
 
 ## Diseño
