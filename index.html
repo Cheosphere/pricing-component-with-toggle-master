@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Last-Modified" content="0">
+  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="lib/anime.min.js" defer></script>
+  <script src="main.js" defer></script>
+  <title>Pricing Component With Toggle</title>
+</head>
+
+<body>
+  <!-- CONTAINER AREA -->
+  <main class="container">
+    <div class="wrapper">
+      <!-- PRICING SWITCH AREA -->
+      <article class="pricing_switch">
+        <h1 class="pricing_switch_title">Our Pricing</h1>
+        <div class="pricing_switch_options">
+          <span class="pricing_switch_options_period">Annually</span>
+          <label class="switch">
+            <input id="switch" type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+          <span class="pricing_switch_options_period">Monthly</span>
+        </div>
+      </article>
+      <!-- CARDS AREA -->
+      <!-- CARD LEFT -->
+      <div class="cards_wrapper">
+        <article class="card_side">
+          <h2 class="card_title">Basic</h2>
+          <span class="card_price_symbol">$</span>
+          <h3 id="basic" class="card_price basic">19.99</h3>
+          <hr class="card_divider">
+          <p class="card_data_plan">500 GB Storage</p>
+          <hr class="card_divider">
+          <p class="card_data_plan">2 Users Allowed</p>
+          <hr class="card_divider">
+          <p class="card_data_plan">Send up to 3 GB</p>
+          <hr class="card_divider">
+          <a href="#" class="card_button" onclick="javascipt:return false;">LEARN MORE</a>
+        </article>
+        <!-- CARD CENTER -->
+        <article class="card_center">
+          <h2 class="card_title">Professional</h2>
+          <span class="card_price_symbol">$</span>
+          <h3 id="pro" class="card_price pro">24.99</h3>
+          <hr class="card_divider">
+          <p class="card_data_plan">1 TB Storage</p>
+          <hr class="card_divider">
+          <p class="card_data_plan">5 Users Allowed</p>
+          <hr class="card_divider">
+          <p class="card_data_plan">Send up to 10 GB</p>
+          <hr class="card_divider">
+          <a href="#" class="card_button" onclick="javascipt:return false;">LEARN MORE</a>
+        </article>
+        <!-- CARD RIGHT -->
+        <article class="card_side">
+          <h2 class="card_title">Master</h2>
+          <span class="card_price_symbol">$</span>
+          <h3 id="master" class="card_price master">39.99</h3>
+          <hr class="card_divider">
+          <p class="card_data_plan">2 TB Storage</p>
+          <hr class="card_divider">
+          <p class="card_data_plan">10 Users Allowed</p>
+          <hr class="card_divider">
+          <p class="card_data_plan">Send up to 20 GB</p>
+          <hr class="card_divider">
+          <a href="#" class="card_button" onclick="javascipt:return false;">LEARN MORE</a>
+        </article>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
