@@ -18,8 +18,65 @@
 <body>
   <!-- CONTAINER AREA -->
   <main class="container">
-    <h1 style="opacity: 0; position: absolute;">Hello World</h1>
-    <img src="./design/desktop-design-monthly.jpg" alt="monthly">
+    <div class="wrapper">
+      <!-- PRICING SWITCH AREA -->
+      <article class="pricing_switch">
+        <h1 class="pricing_switch_title">Our Pricing</h1>
+        <div class="pricing_switch_options">
+          <span class="pricing_switch_options_period">Annually</span>
+          <label class="switch">
+            <input id="switch" name="switch" type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+          <span class="pricing_switch_options_period">Monthly</span>
+        </div>
+      </article>
+      <!-- CARDS AREA -->
+      <!-- CARD LEFT -->
+      <div class="cards_wrapper">
+        <article class="card_side">
+          <h2 class="card_title">Basic</h2>
+          <span class="card_price_symbol">$</span>
+          <h3 id="basic" class="card_price basic">19.99</h3>
+          <hr class="card_divider">
+          <p class="card_data_plan">500 GB Storage</p>
+          <hr class="card_divider">
+          <p class="card_data_plan">2 Users Allowed</p>
+          <hr class="card_divider">
+          <p class="card_data_plan">Send up to 3 GB</p>
+          <hr class="card_divider">
+          <a href="#" class="card_button" onclick="javascipt:return false;">LEARN MORE</a>
+        </article>
+        <!-- CARD CENTER -->
+        <article class="card_center">
+          <h2 class="card_title">Professional</h2>
+          <span class="card_price_symbol">$</span>
+          <h3 id="pro" class="card_price pro">24.99</h3>
+          <hr class="card_divider">
+          <p class="card_data_plan">1 TB Storage</p>
+          <hr class="card_divider">
+          <p class="card_data_plan">5 Users Allowed</p>
+          <hr class="card_divider">
+          <p class="card_data_plan">Send up to 10 GB</p>
+          <hr class="card_divider">
+          <a href="#" class="card_button" onclick="javascipt:return false;">LEARN MORE</a>
+        </article>
+        <!-- CARD RIGHT -->
+        <article class="card_side">
+          <h2 class="card_title">Master</h2>
+          <span class="card_price_symbol">$</span>
+          <h3 id="master" class="card_price master">39.99</h3>
+          <hr class="card_divider">
+          <p class="card_data_plan">2 TB Storage</p>
+          <hr class="card_divider">
+          <p class="card_data_plan">10 Users Allowed</p>
+          <hr class="card_divider">
+          <p class="card_data_plan">Send up to 20 GB</p>
+          <hr class="card_divider">
+          <a href="#" class="card_button" onclick="javascipt:return false;">LEARN MORE</a>
+        </article>
+      </div>
+    </div>
   </main>
 </body>
 
